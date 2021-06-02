@@ -1,0 +1,57 @@
+/*
+Theme Name: Truemag child
+Template: truemag
+Version:      1.2.1
+*/
+/* Theme customization starts here
+-------------------------------------------------------------- */
+.multi_link-area {
+	margin-bottom: 30px;
+}
+.multi_link-area .nav-tabs li > *{
+	border:none;
+	display: block;
+	background-color: transparent;
+	padding: 9px 13px 8px;
+}
+
+.multi_link-area .nav-tabs li > span {
+	font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.multi_link-area .nav-tabs li {
+    margin-bottom: -2px;
+}
+
+.multi_link-area .nav-tabs li:first-child {
+	color: #7860AC;
+}
+
+.multi_link-area .nav-tabs li.active a {
+	border:none;	
+    border-bottom: 2px solid #7860AC;
+    pointer-events: none;
+}
+
+
+.multi_link-area .nav-tabs li:hover a {
+    border-bottom: 2px solid #7860AC;	
+}
+
+.multi_link-area .tab-content .tab-pane {
+	padding: 15px 10px 5px;
+    font-size: 0;
+}
+
+.multi_link-area .tab-content .tab-pane .multilink-btn {
+	background-color: #EFEFEF; 
+	border: none;
+	color: #636363;
+	margin: 0px 5px 10px;
+}
+
+.multi_link-area .tab-content .tab-pane .multilink-btn:hover {
+	background-color: #7860AC;
+	color: #fff;
+}

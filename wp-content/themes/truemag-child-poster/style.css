@@ -1,0 +1,23 @@
+/*
+Theme Name: truemag-child-poster
+Template: truemag
+Version: 1.3
+*/
+
+.smart-box-style-1 .smart-item .item-thumbnail, .smart-box-style-2 .smart-item .item-thumbnail {
+	height: auto;
+	padding-top: 0;
+}
+.smart-box-style-1 .smart-item .col-md-3 .item-thumbnail, .smart-box-style-1 .smart-item .col-md-2 .item-thumbnail {
+	padding-top: 0;
+}
+.smart-box-style-1 .smart-item .item-thumbnail img, .smart-box-style-2 .smart-item .item-thumbnail img {
+	position: static;
+}
+.video-listing:not(.style-list-1) .video-item .item-thumbnail{
+	height: auto;
+	padding-top:0;
+}
+.video-listing:not(.style-list-1) .video-item .item-thumbnail img{
+	position: static;
+}
